@@ -1,5 +1,7 @@
 "use client"
 
+import type React from "react"
+
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -7,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react'
+import { Mail, MapPin, Clock, Send } from "lucide-react"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -46,7 +48,9 @@ export default function ContactPage() {
             <Card className="border-pink-200">
               <CardHeader>
                 <CardTitle className="text-pink-800">Send us a Message</CardTitle>
-                <CardDescription>Fill out the form below and we'll get back to you as soon as possible.</CardDescription>
+                <CardDescription>
+                  Fill out the form below and we'll get back to you as soon as possible.
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -137,8 +141,8 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-pink-800" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <a href="mailto:cyclesforchange@gmail.com" className="text-pink-700 hover:text-pink-800">
-                      cyclesforchange@gmail.com
+                    <a href="mailto:cyclesforchange2024@gmail.com" className="text-pink-700 hover:text-pink-800">
+                      cyclesforchange2024@gmail.com
                     </a>
                   </div>
                 </div>
@@ -236,7 +240,7 @@ export default function ContactPage() {
                 Follow Our Journey
               </a>
             </Button>
-            <Button asChild variant="outline" className="border-pink-800 text-pink-800 hover:bg-pink-50">
+            <Button asChild variant="outline" className="border-pink-800 text-pink-800 hover:bg-pink-50 bg-transparent">
               <a href="/our-mission">Learn About Our Mission</a>
             </Button>
           </div>

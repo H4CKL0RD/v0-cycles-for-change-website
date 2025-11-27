@@ -14,7 +14,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center space-y-8">
             {/* Logo */}
             <div className="relative w-96 h-96 md:w-128 md:h-128 mb-4">
-              <Image src="/images/logo.webp" alt="Cycles for Change Logo" fill className="object-contain text-7xl" priority />
+              <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-5D3JsdgNP9Q9owrCAEjcJFkXi7y4B4.png" alt="Cycles for Change Logo" fill className="object-contain text-7xl" priority />
             </div>
 
             {/* Mission Statement */}

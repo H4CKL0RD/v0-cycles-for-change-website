@@ -4,29 +4,24 @@ import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/ca
 export default function AboutUsPage() {
   const teamMembers = [
     {
-      name: "Dhiya Thirumurugan",
-      role: "Co-Founder",
-      image: "/professional-headshot.png",
+      name: "Aarav Paryemalani",
+      role: "Technology Lead",
+      image: "/images/aarav-headshot.jpg",
     },
     {
-      name: "Anvi Jakatimath",
-      role: "Co-Founder",
-      image: "/professional-headshot.png",
+      name: "Jeremiah Fudge",
+      role: "Podcast Lead",
+      image: "/images/jeremiah-headshot.jpg",
     },
     {
       name: "Erika Engh",
       role: "Blog/Newsletter Head",
-      image: "/professional-headshot.png",
+      image: "/images/erika-headshot.jpeg",
     },
     {
-      name: "Alex Sacerdote",
+      name: "Saavri Kommerra",
       role: "Social Media Manager",
-      image: "/professional-headshot.png",
-    },
-    {
-      name: "Aarav Paryemalani",
-      role: "Tech Coordinator",
-      image: "/professional-headshot.png",
+      image: "/images/saavri-headshot.jpeg",
     },
   ]
 
@@ -44,7 +39,7 @@ export default function AboutUsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
           <div className="space-y-6">
             <div className="relative h-64 md:h-80 rounded-lg overflow-hidden bg-pink-100">
-              <Image src="/professional-portrait.png" alt="Dhiya Thirumurugan" fill className="object-cover" />
+              <Image src="/images/dhyia-headshot.jpg" alt="Dhiya Thirumurugan" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-2xl font-bold text-pink-800 mb-2">Dhiya Thirumurugan</h2>
@@ -60,7 +55,7 @@ export default function AboutUsPage() {
 
           <div className="space-y-6">
             <div className="relative h-64 md:h-80 rounded-lg overflow-hidden bg-pink-100">
-              <Image src="/professional-portrait.png" alt="Anvi Jakatimath" fill className="object-cover" />
+              <Image src="/images/anvi-headshot.jpeg" alt="Anvi Jakatimath" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-2xl font-bold text-pink-800 mb-2">Anvi Jakatimath</h2>

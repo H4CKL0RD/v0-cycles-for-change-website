@@ -19,11 +19,11 @@ export function Footer() {
             <span className="sr-only">Instagram</span>
           </Link>
           <Link
-            href="mailto:cyclesforchange@gmail.com"
+            href="mailto:cyclesforchange2024@gmail.com"
             className="text-pink-800 hover:text-pink-600 transition-colors flex items-center gap-2"
           >
             <Mail className="h-5 w-5" />
-            <span className="text-sm">cyclesforchange@gmail.com</span>
+            <span className="text-sm">cyclesforchange2024@gmail.com</span>
           </Link>
         </div>
       </div>

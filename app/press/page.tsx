@@ -149,7 +149,7 @@ export default function PressPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild variant="outline" className="border-white text-pink-800 hover:bg-pink-700 bg-transparent">
-              <Link href="mailto:cyclesforchange@gmail.com">
+              <Link href="mailto:cyclesforchange2024@gmail.com">
                 <Newspaper className="mr-2 h-4 w-4" />
                 Contact for Press
               </Link>
